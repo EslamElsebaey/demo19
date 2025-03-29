@@ -15,6 +15,21 @@
     //   display: none;
     // }
   }
+  .slider .owl-dots .owl-dot {
+    opacity: 0.502;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #000000;
+    @include xs {
+      background-color: #000000;
+      opacity: 0.502;
+    }
+    &.active {
+      background-color: #79ceef;
+      opacity: 1;
+    }
+  }
 }
 
 @include xs {
@@ -24,7 +39,7 @@
       .owl-nav {
         display: none;
       }
-      @include dots_;
+      // @include dots_;
       .owl-dots {
         display: block;
         bottom: 10px;

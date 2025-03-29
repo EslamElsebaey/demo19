@@ -1084,10 +1084,10 @@ html[dir=ltr] .slider_parant .slider .owl-nav button.owl-next {
   z-index: 9999;
 }
 .slider_parant .slider .owl-dots .owl-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   background-color: #bdbdbd;
-  opacity: 0.5;
+  opacity: 0.7;
   margin: 0 3px;
   border-radius: 50%;
 }
@@ -1106,6 +1106,23 @@ html[dir=ltr] .slider_parant .slider .owl-nav button.owl-next {
   display: block;
   bottom: 20px;
 }
+.slider_parant .slider .owl-dots .owl-dot {
+  opacity: 0.502;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+@media only screen and (max-width: 767px) {
+  .slider_parant .slider .owl-dots .owl-dot {
+    background-color: #000000;
+    opacity: 0.502;
+  }
+}
+.slider_parant .slider .owl-dots .owl-dot.active {
+  background-color: #79ceef;
+  opacity: 1;
+}
 
 @media only screen and (max-width: 767px) {
   .slider_parant .slider {
@@ -1114,36 +1131,6 @@ html[dir=ltr] .slider_parant .slider .owl-nav button.owl-next {
   .slider_parant .slider .owl-nav {
     display: none;
   }
-  .slider_parant .slider .owl-dots {
-    display: none;
-    position: absolute;
-    bottom: 20px;
-    left: 50%;
-    transform: translatex(-50%);
-    color: #24156d;
-    z-index: 9999;
-  }
-  .slider_parant .slider .owl-dots .owl-dot {
-    width: 6px;
-    height: 6px;
-    background-color: #bdbdbd;
-    opacity: 0.5;
-    margin: 0 3px;
-    border-radius: 50%;
-  }
-  .slider_parant .slider .owl-dots .active {
-    background-color: #e04e1d;
-    opacity: 1;
-    transform: scale(1.2);
-    outline: 0;
-  }
-}
-@media only screen and (max-width: 767px) and (max-width: 767px) {
-  .slider_parant .slider .owl-dots {
-    display: block;
-  }
-}
-@media only screen and (max-width: 767px) {
   .slider_parant .slider .owl-dots {
     display: block;
     bottom: 10px;
@@ -1229,10 +1216,10 @@ html[dir=ltr] .slider_parant .slider .owl-nav button.owl-next {
   z-index: 9999;
 }
 .Category_parant .Category .owl-dots .owl-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   background-color: #bdbdbd;
-  opacity: 0.5;
+  opacity: 0.7;
   margin: 0 3px;
   border-radius: 50%;
 }
@@ -1447,10 +1434,10 @@ html[dir=rtl] .feature_item .feat_name {
   z-index: 9999;
 }
 .Bestseller .owl-dots .owl-dot {
-  width: 6px;
-  height: 6px;
+  width: 8px;
+  height: 8px;
   background-color: #bdbdbd;
-  opacity: 0.5;
+  opacity: 0.7;
   margin: 0 3px;
   border-radius: 50%;
 }
@@ -1765,10 +1752,10 @@ html[dir=ltr] .brands .owl-nav button.owl-next {
     z-index: 9999;
   }
   .brands .owl-dots .owl-dot {
-    width: 6px;
-    height: 6px;
+    width: 8px;
+    height: 8px;
     background-color: #bdbdbd;
-    opacity: 0.5;
+    opacity: 0.7;
     margin: 0 3px;
     border-radius: 50%;
   }
