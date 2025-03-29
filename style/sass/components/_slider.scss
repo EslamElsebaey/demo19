@@ -1,0 +1,34 @@
+.slider_parant {
+  position: relative;
+  .slider {
+    margin-bottom: 50px;
+    img {
+      max-width: 100%;
+    }
+    @include owl-nav_;
+    @include dots_;
+    .owl-dots {
+      display: block;
+      bottom: 20px;
+    }
+    // .owl-dots {
+    //   display: none;
+    // }
+  }
+}
+
+@include xs {
+  .slider_parant {
+    .slider {
+      margin-bottom: 40px;
+      .owl-nav {
+        display: none;
+      }
+      @include dots_;
+      .owl-dots {
+        display: block;
+        bottom: 10px;
+      }
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.feature_item {
+  display: flex;
+  align-items: center;
+  i {
+    font-size: 30px;
+    color: #b5b5b5;
+    margin-inline-end: 20px;
+  }
+  .feat_name {
+    font-size: $font_s + 2;
+    font-weight: $font_b;
+    color: $main_color;
+    @include ar{
+      font-size: 14px;
+      line-height: 1.6;
+      height: 44px;
+    }
+  }
+}
+
+@include sm {
+  .features {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-bottom: 40px;
+  }
+  .feature_item {
+    flex-direction: column;
+    margin-bottom: 10px;
+    i {
+      margin-bottom: 10px;
+      margin-inline-end: 0px;
+    }
+    .feat_name {
+      text-align: center;
+      font-size: $font_s;
+      height: 35px;
+    }
+  }
+}
